@@ -20,5 +20,31 @@ public class Main {
         } else {
             System.out.println("Ребеное может кататься без сопровождения взрослого.");
         }
+        //task3
+        int one = 700;
+        int two = 700;
+        int three = 700;
+        if (one > two) {
+            if (one >= three) {
+                System.out.println("Большее число " + one);
+            } else {
+                System.out.println("Большее число " + three);
+            }
+        } else if (two > one) {
+            if (two >= three) {
+                System.out.println("Большее число " +two);
+                    }
+                 else {
+                    System.out.println("Большее число " +three);
+                }
+        } else {
+                if (one > three) {
+                System.out.println("Большее число " +one);
+            } else if (three > one) {
+                System.out.println("Большее число " +three);
+            } else {
+                System.out.println("Числа равны");
+            }
+        }
     }
 }
