@@ -11,5 +11,14 @@ public class Main {
         } else  if (amanOfYears >= 24) {
             System.out.println("Если возраст человека равен " +amanOfYears+ " , то ему нужно ходить на работу.");
         }
+        //task 2
+        int theChildIsYearsOld = 15;
+        if (theChildIsYearsOld < 5) {
+            System.out.println("Ребеное не может кататься на атракционе.");
+        } else if (theChildIsYearsOld < 14) {
+            System.out.println("Ребеное может кататься только в сопровождении взрослого. Если взрослого нет, то кататься нельзя.");
+        } else {
+            System.out.println("Ребеное может кататься без сопровождения взрослого.");
+        }
     }
 }
